@@ -93,7 +93,7 @@ Defines files to be ignored, you can pass the full file name or extension.
 
 ## Contributors
 
-[Vitor Lionel](https://github.com/vitorleonel/)
+[Vitor Leonel](https://github.com/vitorleonel/)
 
 Contributions of any kind welcome!
 
