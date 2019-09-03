@@ -1,6 +1,6 @@
 {
   "name": "named-exports",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A Webpack Plugin for making named exports from a directory.",
   "main": "./lib/index.js",
   "keywords": [
@@ -12,14 +12,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yungsilva19/named-exports.git"
+    "url": "git+https://github.com/yungsilva/named-exports.git"
   },
-  "author": "Yung Silva <contato@yungsilva.com> (http://yungsilva.com)",
+  "author": "Yung Silva <oi@yungsilva.com> (https://yungsilva.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yungsilva19/named-exports/issues"
+    "url": "https://github.com/yungsilva/named-exports/issues"
   },
-  "homepage": "https://github.com/yungsilva19/named-exports#readme",
+  "homepage": "https://github.com/yungsilva/named-exports#readme",
   "dependencies": {
     "chokidar": "^3.0.2"
   }

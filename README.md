@@ -47,6 +47,23 @@ import { ButtonStyled, InputStyled } from '@/components/atoms/'
 
 You can use some options to make it more fun.
 
+- `path: String | Array`
+
+To watch the subdirectories.
+
+  ```js
+  // watch only in the component directory
+  new NamedExports({
+    path: 'src/components'
+  })
+
+  // watch the component and services directory
+  new NamedExports({
+    path: ['src/components', 'src/services']
+  })
+  ```
+
+
 - `recursive: Boolean` (default `true`)
 
 To watch the subdirectories.
@@ -66,7 +83,7 @@ To watch the subdirectories.
   })
   ```
 
-- `ignore: Array | String`
+- `ignore: String | Array`
 
 Defines files to be ignored, you can pass the full file name or extension.
 
